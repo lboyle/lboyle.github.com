@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF6F61; /* Coral background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.top-bar h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.top-bar p {
+    color: white;
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.projects {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.project {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project p {
+    font-size: 1em;
+    color: #666;
+}
